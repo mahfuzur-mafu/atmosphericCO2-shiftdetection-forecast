@@ -16,3 +16,26 @@ Year, Month, decimal_date, monthly_average, de_seasonalized, ndays (days measure
 
 
 <img width="675" alt="image" src="https://github.com/user-attachments/assets/89dcc1ce-b67a-4d63-8ce7-25d9d5c5bdec" />
+
+
+
+---
+
+## 📊 Data
+
+- **Source:** NOAA Global Monitoring Laboratory  
+- **Period:** March 1958 – April 2025 (806 monthly observations)  
+- **Fields:**  
+  - `year`, `month`, `decimal_date`  
+  - `monthly_average` (ppm)  
+  - `de_seasonalized` (ppm)  
+  - `ndays`, `stdev_days`, `unc_mon_mean`
+
+---
+
+## 🛠️ Installation
+
+1. Clone this repo:  
+   ```bash
+   git clone https://github.com/mahfuzur-mafu/atmosphericCO2-shiftdetection-forecast.git
+   cd atmosphericCO2-shiftdetection-forecast
