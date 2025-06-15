@@ -121,3 +121,13 @@ To replicate the analysis and forecasting, follow these steps:
 * Develop a more robust method for handling short regimes in seasonal modeling.
 
 ---
+
+
+
+<img width="744" alt="image" src="https://github.com/user-attachments/assets/605f448d-59de-4c52-9faf-0926c5bc1079" />
+
+
+
+<img width="534" alt="image" src="https://github.com/user-attachments/assets/977d2c65-0289-4aff-8648-6ce65e6f036a" />
+
+
