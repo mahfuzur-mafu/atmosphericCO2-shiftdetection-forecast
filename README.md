@@ -46,6 +46,26 @@ The project follows a comprehensive workflow involving data acquisition, preproc
 
 The study utilizes the **PELT (Pruned Exact Linear Time)** algorithm for change-point detection. This algorithm is applied to identify significant shifts or anomalies in the CO₂ time series, which can signal critical climate or policy events.
 
+
+Method: PELT (Pruned Exact Linear Time) for change-point detection on trend and residuals. fast and scalable, making it suitable for long time series like CO₂ data.
+It automatically splits the time series into segments that are as homogeneous as possible.
+A penalty parameter controls sensitivity
+Significance: Regime shifts often align with major climate events, economic changes, or policy milestones
+
+![image](https://github.com/user-attachments/assets/5b51cea9-daef-4c0a-bc08-34931bd163e8)
+
+### Major changes by setting up threshold ( Major and Low)
+
+<img width="742" alt="image" src="https://github.com/user-attachments/assets/89d20b85-b619-4c13-b816-11c6decb132d" />
+
+
+### Event Based Validation
+
+
+<img width="688" alt="image" src="https://github.com/user-attachments/assets/c438a76b-f068-4943-a518-fdfa025c6c91" />
+
+
+
 ### Predictive Modeling
 
 A variety of models, including classical time series models and machine learning models, were employed for forecasting:
@@ -70,6 +90,7 @@ The performance of the predictive models was evaluated using:
 * **RMSE (Root Mean Squared Error):** Measures the square root of the average of the squared errors.
 
 ## Results
+
 
 The evaluation of the models yielded the following key findings:
 
@@ -122,12 +143,5 @@ To replicate the analysis and forecasting, follow these steps:
 
 ---
 
-
-
-<img width="744" alt="image" src="https://github.com/user-attachments/assets/605f448d-59de-4c52-9faf-0926c5bc1079" />
-
-
-
-<img width="534" alt="image" src="https://github.com/user-attachments/assets/977d2c65-0289-4aff-8648-6ce65e6f036a" />
 
 
